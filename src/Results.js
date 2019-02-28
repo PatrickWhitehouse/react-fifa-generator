@@ -32,7 +32,6 @@ class Results extends Component{
         
         return(
             <div>
-                <p>Please press the randomize button below for a random team.</p>
                 <div>
                     <h2>Select league and rating</h2>
                     <select onChange={this.selectChange} value={this.state.select}>
@@ -44,8 +43,8 @@ class Results extends Component{
                 </div>
                 <button onClick={this.randomTeam.bind(this)} >Randomize</button>
                 <h2>Results...</h2> 
-                <p>Team: {this.state.team ? this.state.team : 'No team generated.'}</p>
-                <p>Rating: {this.state.rating ? this.state.rating : 'No team generated.'}</p>
+                <p>Team: <strong>{this.state.team ? this.state.team : 'No team generated.'}</strong></p>
+                <p>Rating: <strong>{this.state.rating ? this.state.rating : 'No team generated.'}</strong></p>
             </div>
         );
     }

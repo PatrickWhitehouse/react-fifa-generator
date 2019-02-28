@@ -7,6 +7,18 @@ let Data = {
         {
             team: 'Manchester United',
             rating: 5
+        },
+        {
+            team: 'Chelsea',
+            rating: 5
+        },
+        {
+            team: 'Spurs',
+            rating: 5
+        },
+        {
+            team: 'Arsenal',
+            rating: 5
         }
     ],
     International: [
