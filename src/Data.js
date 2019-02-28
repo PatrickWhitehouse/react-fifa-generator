@@ -24,7 +24,25 @@ let Data = {
     International: [
         {
             team: 'Brazil',
-            rating: 4
+            rating: 5
+        },
+        {
+            team: 'Spain',
+            rating: 5
+        },
+        {
+            team: 'France',
+            rating: 5
+        },
+        {
+            team: 'England',
+            rating: 5
+        }
+    ],
+    LaLiga: [
+        {
+            team: 'Barcelona',
+            rating: 5
         }
     ]
 };

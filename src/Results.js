@@ -38,6 +38,7 @@ class Results extends Component{
                         <option></option>
                         <option value="Prem">Prem</option>
                         <option value="International">International</option>
+                        <option value="LaLiga">La Liga</option>
                     </select>
                     <p>{this.state.select ? 'You have selected ' + this.state.select : ''}</p>
                 </div>
